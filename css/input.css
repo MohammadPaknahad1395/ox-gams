@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes anime1 {
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes anime2 {
+    to {
+        margin-left: 0;
+    }
+}
+
+@layer components {
+    .playerStatus {
+        @apply animate-pulse bg-green-500;
+    }
+}
