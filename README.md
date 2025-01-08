@@ -1,2 +1,2 @@
-# ox-gams
+# oxgams
 dos
